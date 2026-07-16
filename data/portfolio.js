@@ -72,18 +72,16 @@ export const projects = [
 
 export const certifications = [
   {
-    title: "Certification showcase",
+    title: "Young Innovator's Award",
+    image: "/images/certificates/young-innovators-award.png",
     description:
-      "Add your verified certificates, issuers, and completion dates here as your professional portfolio grows.",
+      "Recognized for developing the LGU Unified Web-Based Alert System for Risk Mapping and Accident Reporting, an innovative software solution that supports public safety and local government operations.",
+    issuer: "Bohol Island State University",
+    date: "June 16, 2026",
   },
   {
-    title: "Continuous learning",
+    title: "More Certifications Coming Soon",
     description:
-      "This space can highlight training in web development, cloud tools, and software engineering practices.",
-  },
-  {
-    title: "Professional development",
-    description:
-      "Keep this section current with your most relevant qualifications and learning milestones.",
+      "Continuously expanding my expertise through professional certifications, technical training, and software development programs.",
   },
 ];

@@ -35,7 +35,7 @@ export default function Hero() {
           <div className="max-w-xl text-center lg:text-left">
             <p className="text-xl font-semibold text-blue-400">Hi, I&apos;m</p>
             <h1 className="mt-2 text-5xl font-extrabold leading-[0.98] tracking-tight text-white xl:text-[3.5rem]">
-              <span className="whitespace-nowrap">John Lyndon</span>
+              <span className="whitespace-nowrap">John Lyndon R.</span>
               <span className="block text-blue-500">Sanggod</span>
             </h1>
             <p className="mt-4 text-2xl font-semibold text-slate-100">
