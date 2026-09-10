@@ -10,12 +10,16 @@ export const navigationLinks = [
 export const profile = {
   name: "John Lyndon R. Sanggod",
   shortName: "John Lyndon R. Sanggod",
-  role: "Software Engineer",
+  role: "Junior Software Developer / Application Developer",
   email: "johnlyndonsanggod27@gmail.com",
   phone: "+63 981 797 6666",
   location: "Clarin, Bohol, Philippines",
+
   github: "https://github.com/LynxDen10",
-  linkedin: "https://linkedin.com/in/yourusername",
+  githubLuwas: "https://github.com/LynxDen10/luwas",
+  githubAcciAlert: "https://github.com/LynxDen10/AcciAlertV1",
+
+  linkedin: "https://www.linkedin.com/in/johnlyndonrsanggod/",
   facebook: "https://www.facebook.com/johnlyndonrs/",
   resume: "/resume/John_Lyndon_Sanggod_Resume.pdf",
 };
@@ -51,14 +55,34 @@ export const projects = [
       "Android application that detects road incidents using device sensors and sends real-time alerts to emergency contact responders.",
     technologies: ["Kotlin", "Firebase", "Google Maps", "FCM"],
     preview: "mobile",
+    github: profile.githubAcciAlert,
   },
   {
-    title: "Barangay Management System",
-    subtitle: "Web-based management platform",
+    title: "LUWAS",
+    subtitle: "LGU Unified Web-based Alert System",
     description:
-      "Web-based system for managing barangay officials, residents, and documents with role-based access and CRUD functionality.",
-    technologies: ["React", "Node.js", "MySQL", "Tailwind CSS"],
-    preview: "dashboard",
+      "A web-based platform for local government teams to manage community data, visualize hazard areas, and support faster disaster response.",
+    technologies: ["React", "Node.js", "MySQL", "Leaflet"],
+    preview: "image",
+    github: profile.githubLuwas,
+    images: [
+      {
+        src: "/images/projects/luwas/dashboard.jpg",
+        alt: "LUWAS dashboard with resident statistics",
+      },
+      {
+        src: "/images/projects/luwas/map.jpg",
+        alt: "LUWAS hazard map with affected households",
+      },
+      {
+        src: "/images/projects/luwas/reports.jpg",
+        alt: "LUWAS reports screen",
+      },
+      {
+        src: "/images/projects/luwas/household.jpg",
+        alt: "LUWAS household management screen",
+      },
+    ],
   },
   {
     title: "Billing Management System",

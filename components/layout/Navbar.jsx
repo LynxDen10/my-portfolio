@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { FaBars, FaCode, FaFileDownload, FaTimes } from "react-icons/fa";
 
 import { navigationLinks, profile } from "@/data/portfolio";
@@ -24,7 +24,9 @@ export default function Navbar() {
       { rootMargin: "-35% 0px -55% 0px" },
     );
 
-    document.querySelectorAll("main section[id]").forEach((section) => observer.observe(section));
+    document
+      .querySelectorAll("main section[id]")
+      .forEach((section) => observer.observe(section));
     updateScrolled();
     window.addEventListener("scroll", updateScrolled, { passive: true });
 
@@ -50,7 +52,9 @@ export default function Navbar() {
           onClick={closeMenu}
           className="flex items-center gap-2 text-xl font-extrabold tracking-tight text-slate-900"
         >
-          <span className="text-2xl text-blue-600"><FaCode aria-hidden="true" /></span>
+          <span className="text-2xl text-blue-600">
+            <FaCode aria-hidden="true" />
+          </span>
           John Lyndon
         </Link>
 
@@ -76,6 +80,7 @@ export default function Navbar() {
           <a
             href={profile.resume}
             target="_blank"
+            rel="noreferrer"
             className="hidden items-center gap-2 rounded-lg bg-slate-950 px-4 py-2.5 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-blue-700 sm:flex"
           >
             <FaFileDownload aria-hidden="true" />
@@ -85,7 +90,9 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setMenuOpen((isOpen) => !isOpen)}
-            aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+            aria-label={
+              menuOpen ? "Close navigation menu" : "Open navigation menu"
+            }
             aria-expanded={menuOpen}
             className="text-2xl text-slate-700 xl:hidden"
           >
@@ -119,6 +126,7 @@ export default function Navbar() {
             <a
               href={profile.resume}
               target="_blank"
+              rel="noreferrer"
               onClick={closeMenu}
               className="flex items-center justify-center gap-2 rounded-lg bg-slate-950 px-4 py-3 text-sm font-bold text-white"
             >

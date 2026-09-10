@@ -18,9 +18,9 @@ export default function About() {
 
           <div className="space-y-4 text-base leading-8 text-slate-600">
             <p>
-              I'm a Computer Science graduate passionate about building modern
-              web and mobile applications. I enjoy transforming ideas into
-              reliable, user-focused software through clean architecture,
+              I&apos;m a Computer Science graduate passionate about building
+              modern web and mobile applications. I enjoy transforming ideas
+              into reliable, user-focused software through clean architecture,
               intuitive interfaces, and maintainable code.
             </p>
 
@@ -33,7 +33,7 @@ export default function About() {
           </div>
 
           <a href="#contact" className="button-outline mt-7">
-            Let's Connect
+            Let&apos;s Connect
             <FaArrowRight aria-hidden="true" />
           </a>
         </article>
@@ -75,7 +75,7 @@ export default function About() {
               <span className="text-sm font-bold text-blue-600">03</span>
 
               <h3 className="mt-3 font-semibold text-slate-900">
-                Software Engineering
+                Junior Software Developer
               </h3>
 
               <p className="mt-2 text-sm text-slate-500">

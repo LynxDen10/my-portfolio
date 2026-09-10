@@ -1,7 +1,8 @@
+import Image from "next/image";
 import { FaAward } from "react-icons/fa";
 
-import { certifications } from "@/data/portfolio";
 import SectionHeading from "@/components/ui/SectionHeading";
+import { certifications } from "@/data/portfolio";
 
 export default function Certifications() {
   return (
@@ -31,10 +32,12 @@ export default function Certifications() {
                   rel="noopener noreferrer"
                   className="block bg-slate-800 p-5"
                 >
-                  <img
+                  <Image
                     src={certification.image}
                     alt={certification.title}
-                    className="mx-auto max-h-[450px] w-auto rounded-lg border border-slate-700 shadow-lg transition duration-300 hover:scale-[1.02]"
+                    width={900}
+                    height={600}
+                    className="mx-auto max-h-112.5 w-auto rounded-lg border border-slate-700 shadow-lg transition duration-300 hover:scale-[1.02]"
                   />
                 </a>
               ) : (

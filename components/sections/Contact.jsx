@@ -1,12 +1,32 @@
-import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt, FaPaperPlane } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaPaperPlane,
+  FaPhoneAlt,
+} from "react-icons/fa";
 
-import { profile } from "@/data/portfolio";
 import SectionHeading from "@/components/ui/SectionHeading";
+import { profile } from "@/data/portfolio";
 
 const contactItems = [
-  { label: "Email", value: profile.email, href: `mailto:${profile.email}`, icon: FaEnvelope },
-  { label: "Phone", value: profile.phone, href: "tel:+639123456789", icon: FaPhoneAlt },
-  { label: "Location", value: profile.location, href: "#contact", icon: FaMapMarkerAlt },
+  {
+    label: "Email",
+    value: profile.email,
+    href: `mailto:${profile.email}`,
+    icon: FaEnvelope,
+  },
+  {
+    label: "Phone",
+    value: profile.phone,
+    href: "tel:+639817976666",
+    icon: FaPhoneAlt,
+  },
+  {
+    label: "Location",
+    value: profile.location,
+    href: "#contact",
+    icon: FaMapMarkerAlt,
+  },
 ];
 
 export default function Contact() {
@@ -14,12 +34,14 @@ export default function Contact() {
     <section id="contact" className="section-shell py-20 sm:py-24">
       <div className="contact-panel">
         <div className="max-w-2xl">
-          <span className="icon-badge"><FaPaperPlane aria-hidden="true" /></span>
+          <span className="icon-badge">
+            <FaPaperPlane aria-hidden="true" />
+          </span>
           <div className="mt-5">
             <SectionHeading
-              eyebrow="Let&apos;s connect"
-              title="Let&apos;s work together."
-              description="I&apos;m open to opportunities and collaborations. Feel free to reach out through any of the channels below."
+              eyebrow="Let's connect"
+              title="Let's work together."
+              description="I'm open to opportunities and collaborations. Feel free to reach out through any of the channels below."
             />
           </div>
         </div>
@@ -30,8 +52,12 @@ export default function Contact() {
                 <Icon aria-hidden="true" />
               </span>
               <span>
-                <span className="block text-xs font-bold uppercase tracking-wide text-slate-500">{label}</span>
-                <span className="mt-1 block font-semibold text-slate-800">{value}</span>
+                <span className="block text-xs font-bold uppercase tracking-wide text-slate-500">
+                  {label}
+                </span>
+                <span className="mt-1 block font-semibold text-slate-800">
+                  {value}
+                </span>
               </span>
             </a>
           ))}

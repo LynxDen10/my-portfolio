@@ -35,7 +35,10 @@ export default function Footer() {
             <ul className="space-y-3">
               {navigationLinks.map((item) => (
                 <li key={item.id}>
-                  <a href={`#${item.id}`} className="text-slate-300 transition hover:text-blue-400">
+                  <a
+                    href={`#${item.id}`}
+                    className="text-slate-300 transition hover:text-blue-400"
+                  >
                     {item.label}
                   </a>
                 </li>
@@ -46,11 +49,17 @@ export default function Footer() {
           <div>
             <h3 className="mb-5 text-xl font-semibold">Contact</h3>
             <div className="space-y-4 text-slate-300">
-              <a href={`mailto:${profile.email}`} className="flex items-center gap-3 transition hover:text-white">
+              <a
+                href={`mailto:${profile.email}`}
+                className="flex items-center gap-3 transition hover:text-white"
+              >
                 <FaEnvelope className="shrink-0 text-blue-400" />
                 {profile.email}
               </a>
-              <a href="tel:+639123456789" className="flex items-center gap-3 transition hover:text-white">
+              <a
+                href="tel:+639817976666"
+                className="flex items-center gap-3 transition hover:text-white"
+              >
                 <FaPhoneAlt className="shrink-0 text-blue-400" />
                 {profile.phone}
               </a>
