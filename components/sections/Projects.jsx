@@ -23,7 +23,7 @@ export default function Projects() {
 
       <div className="mt-9 grid gap-6 lg:grid-cols-3">
         {projects.map((project) => (
-          <article key={project.title} className="project-card">
+          <article key={project.title} className="project-card group">
             <ProjectPreview variant={project.preview} images={project.images} />
             <div className="flex flex-1 flex-col p-6">
               <div className="flex items-start gap-3">
@@ -40,6 +40,21 @@ export default function Projects() {
                   </p>
                 </div>
               </div>
+
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="project-category-tag">{project.category}</span>
+                <span className="project-status-tag">{project.status}</span>
+              </div>
+
+              <div className="mt-4 rounded-2xl border border-slate-100 bg-slate-50 px-4 py-3">
+                <span className="text-[11px] font-black uppercase tracking-[0.18em] text-slate-400">
+                  Impact
+                </span>
+                <p className="mt-1 text-xs font-bold text-slate-700">
+                  {project.impact}
+                </p>
+              </div>
+
               <p className="mt-4 text-sm leading-6 text-slate-600">
                 {project.description}
               </p>

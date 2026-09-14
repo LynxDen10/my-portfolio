@@ -34,7 +34,8 @@ export default function Hero() {
 
           <div className="max-w-xl text-center lg:text-left">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-cyan-300">
-              Software engineer / Bohol, Philippines
+              Junior Software Developer / Application Developer · Bohol,
+              Philippines
             </p>
             <h1 className="mt-4 text-5xl font-extrabold leading-[0.98] tracking-tight text-white xl:text-[4.25rem]">
               <span className="whitespace-nowrap">John Lyndon R.</span>
@@ -113,7 +114,7 @@ export default function Hero() {
               <span className="code-line">
                 <span className="code-number">3</span> role:{" "}
                 <span className="code-string">
-                  &quot; Junior Software Developer/ Application Developer&quot;
+                  &quot;Software Developer / Application Developer&quot;
                 </span>
                 ,
               </span>

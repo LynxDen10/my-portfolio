@@ -18,17 +18,16 @@ export default function About() {
 
           <div className="space-y-4 text-base leading-8 text-slate-600">
             <p>
-              I&apos;m a Computer Science graduate passionate about building
-              modern web and mobile applications. I enjoy transforming ideas
-              into reliable, user-focused software through clean architecture,
-              intuitive interfaces, and maintainable code.
+              I&apos;m a Computer Science graduate and Junior Software Developer
+              / Application Developer focused on creating practical web and
+              mobile applications that solve real user problems through clean
+              architecture, strong product thinking, and intuitive design.
             </p>
 
             <p>
-              I continuously improve my skills by working on real-world
-              projects, learning new technologies, and collaborating with others
-              to create practical software solutions that make a positive
-              impact.
+              I build with modern tools, improve through real-world project
+              work, and enjoy turning ideas into dependable software that can be
+              tested, maintained, and used with confidence.
             </p>
           </div>
 
@@ -39,7 +38,7 @@ export default function About() {
         </article>
 
         {/* Right Card */}
-        <div className="rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-50 to-white p-7 sm:p-8">
+        <div className="rounded-3xl border border-blue-100 bg-linear-to-br from-blue-50 to-white p-7 sm:p-8">
           <SectionHeading
             eyebrow="Core Expertise"
             title="Building scalable software with clean code and user-centered design."

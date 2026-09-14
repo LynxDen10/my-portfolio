@@ -41,7 +41,7 @@ export default function Contact() {
             <SectionHeading
               eyebrow="Let's connect"
               title="Let's work together."
-              description="I'm open to opportunities and collaborations. Feel free to reach out through any of the channels below."
+              description="I'm open to software development opportunities, collaborative projects, and practical application work. Reach out through any of the channels below."
             />
           </div>
         </div>

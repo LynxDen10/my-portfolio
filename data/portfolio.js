@@ -43,23 +43,53 @@ export const skillGroups = [
   },
   {
     title: "Tools & Technologies",
-    skills: ["Git", "GitHub", "Postman", "Visual Studio Code", "Android Studio"],
+    skills: [
+      "Git",
+      "GitHub",
+      "Postman",
+      "Visual Studio Code",
+      "Android Studio",
+    ],
   },
 ];
 
 export const projects = [
   {
     title: "AcciAlert",
-    subtitle: "Android Road Incident Detection App",
+    subtitle: "Real-Time Accident Detection and Emergency Response",
+    category: "Mobile Safety App",
+    status: "Android + Firebase",
+    impact: "Emergency response workflow",
     description:
-      "Android application that detects road incidents using device sensors and sends real-time alerts to emergency contact responders.",
+      "AcciAlert is a mobile safety application that detects road incidents through phone sensors, shares GPS location, and notifies emergency contacts and responders in real time.",
     technologies: ["Kotlin", "Firebase", "Google Maps", "FCM"],
-    preview: "mobile",
+    preview: "image",
     github: profile.githubAcciAlert,
+    images: [
+      {
+        src: "/images/projects/accialert/acc4.png",
+        alt: "AcciAlert GPS and response screen",
+      },
+      {
+        src: "/images/projects/accialert/acc6.png",
+        alt: "AcciAlert dashboard and report screen",
+      },
+      {
+        src: "/images/projects/accialert/acc8.png",
+        alt: "AcciAlert emergency contact details",
+      },
+      {
+        src: "/images/projects/accialert/acc10.png",
+        alt: "AcciAlert incident detection flow",
+      },
+    ],
   },
   {
     title: "LUWAS",
     subtitle: "LGU Unified Web-based Alert System",
+    category: "Web GIS Platform",
+    status: "Web dashboard + GIS",
+    impact: "Local risk monitoring",
     description:
       "A web-based platform for local government teams to manage community data, visualize hazard areas, and support faster disaster response.",
     technologies: ["React", "Node.js", "MySQL", "Leaflet"],
@@ -79,18 +109,10 @@ export const projects = [
         alt: "LUWAS reports screen",
       },
       {
-        src: "/images/projects/luwas/household.jpg",
-        alt: "LUWAS household management screen",
+        src: "/images/projects/luwas/forgot.jpg",
+        alt: "LUWAS forgot password screen",
       },
     ],
-  },
-  {
-    title: "Billing Management System",
-    subtitle: "Billing and reporting platform",
-    description:
-      "A billing system for customer and payment management with report generation and tracking features.",
-    technologies: ["PHP", "MySQL", "Bootstrap", "Chart.js"],
-    preview: "billing",
   },
 ];
 

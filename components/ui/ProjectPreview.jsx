@@ -6,6 +6,11 @@ import { createPortal } from "react-dom";
 import { FaChevronLeft, FaChevronRight, FaTimes } from "react-icons/fa";
 
 const previewStyles = {
+  image: {
+    accent: "from-blue-500 to-cyan-500",
+    label: "Project gallery",
+    sideLabel: "Application preview",
+  },
   mobile: {
     accent: "from-emerald-400 to-cyan-500",
     label: "AcciAlert",

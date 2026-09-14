@@ -1,8 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,8 +15,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "John Lyndon R. Sanggod | Portfolio",
-  description: "Professional Software Engineer Portfolio built with Next.js.",
+  title: "John Lyndon R. Sanggod | Junior Software Developer Portfolio",
+  description:
+    "Portfolio of John Lyndon R. Sanggod, a Junior Software Developer and Application Developer focused on web and mobile application development.",
+  keywords: [
+    "John Lyndon R. Sanggod",
+    "Junior Software Developer",
+    "Application Developer",
+    "Full-stack Developer",
+    "Next.js Portfolio",
+  ],
+  authors: [{ name: "John Lyndon R. Sanggod" }],
 };
 
 export default function RootLayout({ children }) {
