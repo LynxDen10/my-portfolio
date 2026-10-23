@@ -21,9 +21,9 @@ export const metadata = {
   description:
     "Portfolio of John Lyndon R. Sanggod, a Junior Software Developer and Application Developer focused on web and mobile application development.",
   icons: {
-    icon: "/portfolio_Logo.png",
-    shortcut: "/portfolio_Logo.png",
-    apple: "/portfolio_Logo.png",
+    icon: "/images/profile/profile.jpg",
+    shortcut: "/images/profile/profile.jpg",
+    
   },
   keywords: [
     "John Lyndon R. Sanggod",
